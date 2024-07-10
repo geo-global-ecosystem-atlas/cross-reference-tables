@@ -1,0 +1,20 @@
+# Common
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Specific
+.DS_Store
+*.Rproj
+
+# Extensions
+#*.html
+
+# Folders
+archive/
+scratch/
+test/
+
+*cache
+*archive
