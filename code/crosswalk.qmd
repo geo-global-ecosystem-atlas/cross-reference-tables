@@ -41,6 +41,7 @@ mainfont: Arial
 classoption: a4paper
 ---
 
+## Set up and housekeeping
 ```{r}
 #| label: setup
 #| include: false
@@ -48,9 +49,9 @@ classoption: a4paper
 knitr::opts_chunk$set(cache.lazy = FALSE,
                       tidy = "styler")
 options(tinytex.engine = "xelatex")
+rm(list=ls())
 ```
 
-# Prep
 
 ## Libraries
 ```{r}
@@ -65,217 +66,102 @@ library(tidyverse)  #for data wrangling etc
 ```
 
 ## Load database stages
+
+### Stage 1
 ```{r}
-rm(list=ls())
-stage_1 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_1_MASTER")
-stage_2 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_2_MASTER")
-stage_3 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_3_MASTER")
-crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Crosswalk_MASTER")
-```
-
-## Checks
-```{r}
-#glimpse(stage_1)
-#glimpse(stage_2)
-#glimpse(stage_3)
-#glimpse(crosswalk)
-head(stage_1)
-head(stage_2)
-head(stage_3)
-head(crosswalk)
-
-catalogue_vars <- colnames(stage_1) |> as_tibble()
-```
-
-
-
-### Source resolution
-
-```{r}
-
-
-stage_2 |> 
-  mutate(source_resolution = map(source_resolution, ~ifelse(is.null(.x), NA, .x)) |> unlist()) 
-
-
-
-summary(stage_2$time_start)summarsummary()y(stage_2$time_start)
-as.POSIXct(stage_2$time_start, format = "%d-%m-%Y", tz="")
-
-stage_2$time_start |> unlist() |> 
-  as.POSIXct()
-```
-
-
-
-### Reported accuracy
-
-```{r}
-
-
-stage_2 |> 
-  mutate(`reported_accuracy(%)` = map(`reported_accuracy(%)`, ~ifelse(is.null(.x), NA, .x)) |> unlist()) 
-
-
-
-summary(stage_2$time_start)summarsummary()y(stage_2$time_start)
-as.POSIXct(stage_2$time_start, format = "%d-%m-%Y", tz="")
-
-stage_2$time_start |> unlist() |> 
-  as.POSIXct()
-```
-
-
-
-
-# Stage 3 download date
-```{r}
-summary(stage_3$download_date)
-
-
-stage_3 |> 
-  mutate(download_date = as_date(download_date))
-```
-
-
-
-
-
-
-
-## Wrangle
-
-### Full database of all datasets ever discovered by the project
-```{r}
-datasets_catalogue <- 
-  stage_1 |> 
-#  full_join(stage_2) |> 
-#  full_join(stage_3) |> 
-  mutate_if(is_character, as_factor)
-```
-
-## Check
-```{r}
-datasets_catalogue
-```
-
-
-### Database of all datasets passed through to Stage 3
-Currently contains all fields possible from all 3 stages, but only for datasets that have made it through to Stage 3
-```{r}
- EAp_Sources_Info <- 
-  stage_3 |> 
-  left_join(stage_2) |> 
-  left_join(stage_1) |> 
-  mutate_if(is_character, as_factor) |> 
-  filter(geo_pass == 'TRUE') |> 
-  select(Source_ID, 
+stage_1 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_1_MASTER") |> 
+   select(Source_ID, 
          data_id_code,
-         
          title,
-         time_start,
-         time_end,
          published_year,
          dataset_citation,
          licence,
          DOI,
+         domain_class,
+         #abstract,
+         #detailed_description,
+                  licence_link)
+```
+
+### Stage 2
+```{r}
+stage_2 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_2_MASTER") |> 
+   select(Source_ID, 
+         year_end,
          file_type,
          vector_raster,
-         source_resolution,
-         domain_class,
-         `reported_accuracy(%)`,
-         download_date,
-         download_url,
-         #license_download_link,
-         licence_link,
-         abstract,
-         detailed_description) |> 
-  arrange(Source_ID)
+         min_source_resolution,
+         min_accuracy_pc) |> 
+  mutate(min_source_resolution = map(min_source_resolution, ~ifelse(is.null(.x), NA, .x)) |>   # Fix source resolution var
+           unlist() |> 
+           as.numeric())  |> 
+   mutate(min_accuracy_pc = map(min_accuracy_pc, ~ifelse(is.null(.x), NA, .x)) |>  # Fix reported accuracy var
+           unlist()) 
 ```
 
-
-
+### Stage 3
 ```{r}
-EAp_Sources_Info2 <- EAp_Sources_Info |> 
-  mutate(`reported_accuracy(%)` = na_if(`reported_accuracy(%)`, "NULL"))
+stage_3 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_3_MASTER") |> 
+    mutate(download_date = as_date(download_date)) |>    # Make download date be an actual date
+  select(!Source_ID)
+
 ```
 
 
-
-
-
-
-
-# What has passed Stage 3 but not been crosswalked yet?
-
+## Master crosswalk table
 ```{r}
-need_cw <- 
-  stage_3 |> 
-  select(data_id_code, band_layer_name, geo_pass) |> 
-  filter(geo_pass == "TRUE") |> 
-  select(data_id_code) |> 
-  anti_join(
-crosswalk |> 
-  select(data_id_code, band_layer_name, efg_description) |> 
-  filter(!is.na(efg_description)) |> 
-  select(data_id_code) |> 
-  distinct()
-)
+crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Crosswalk_MASTER") |> 
+   mutate(in_class_value = map(in_class_value, ~ifelse(is.null(.x), NA, .x)) |>  unlist()) # In-class values are mixed variable types - need to be unlisted
 ```
 
 
-## Crosswalked datasets - final
+
+
+## Checks
 ```{r}
-final_crosswalked <- crosswalk |> 
-  select(data_id_code, status)  |> 
-  distinct() |> 
-  filter(status == "FINAL")
+head(stage_1)
+head(stage_2)
+head(stage_3)
+head(crosswalk)
 ```
 
-## Crosswalked datasets - draft
+
+
+## Wrangle vars from other stages into crosswalk master tbl if required
 ```{r}
-draft_crosswalked <- crosswalk |> 
-  select(data_id_code, status)  |> 
-  distinct() |> 
-  filter(status == "Draft" |
-           is.na(status))
+
 ```
 
-## Crosswalked datasets - all
+
+# Remove files not required
 ```{r}
-distinct_crosswalked <- crosswalk |> 
-  select(data_id_code, status)  |> 
-  distinct() 
+#rm(stage_1, ...)
 ```
 
+
+
+# Split
 ```{r}
-distinct_stage3 <- stage_3 |> 
-  select(data_id_code)  |> 
-  distinct() 
+crosswalk  |>  
+  split(crosswalk$data_id_code)  |> 
+  list2env(envir = globalenv())
 ```
 
-
-
-
-
-## Write to csv
+# Save as separate csv files
+Run chunk in one go
 ```{r}
-#setwd("../") # Uncomment to render
-#write_csv(stage_1, file = paste0('database/db_snapshots/database_Stage1_',Sys.Date(),'.csv'))
-#write_csv(stage_2, file = paste0('database/db_snapshots/database_Stage2_',Sys.Date(),'.csv'))
-#write_csv(stage_3, file = paste0('database/db_snapshots/database_Stage3_',Sys.Date(),'.csv'))
-
-
-
-
-#write_csv(datasets_catalogue, file = paste0('database/db_snapshots/datasets_catalogue_',Sys.Date(),'.csv'))
-write_csv(EAp_Sources_Info, file = paste0('database/db_snapshots/EAp_Sources_Info_',Sys.Date(),'.csv'))
-#write_csv(crosswalk, file = paste0('database/db_snapshots/database_crosswalk_',Sys.Date(),'.csv'))
-#write_csv(need_cw, file = paste0('database/db_snapshots/need_crosswalk_',Sys.Date(),'.csv'))
-#write_csv(database_full, file = paste0('database/db_snapshots/database_full_',Sys.Date(),'.csv'))
-
-
-
+#rm(crosswalk)
+dfs <- Filter(function(x) is.data.frame(get(x)) , noquote(ls()))
+for (i in dfs){
+  print(i)
+  write_excel_csv(get(i), paste("crosswalk_tables/", i,".csv", sep=""))  
+}
 ```
+
+
+
+
+
+
 
 
