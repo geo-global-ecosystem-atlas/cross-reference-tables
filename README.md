@@ -1,6 +1,6 @@
 ![](https://earthobservations.org/storage/app/resources/resize/400_0_0_0_auto/img_20e49191fd95e90e7a80d3f6e795558e.webp)
 
-### Read Me
+### ReadMe
 
 Repo to house crosswalk tables for GEO Atlas
 
