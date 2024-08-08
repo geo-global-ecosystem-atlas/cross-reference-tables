@@ -111,7 +111,10 @@ stage_3 <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7r
 ## Master crosswalk table
 ```{r}
 crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Crosswalk_MASTER") |> 
-   mutate(in_class_value = map(in_class_value, ~ifelse(is.null(.x), NA, .x)) |>  unlist()) # In-class values are mixed variable types - need to be unlisted
+  mutate(in_class_value = map(in_class_value, ~ifelse(is.null(.x), NA, .x)) |>  unlist()) |>  # In-class vals mixed var types - need unlisting
+  filter(status == "final" |
+           status == "Final")
+
 ```
 
 
@@ -119,9 +122,6 @@ crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V
 
 ## Checks
 ```{r}
-head(stage_1)
-head(stage_2)
-head(stage_3)
 head(crosswalk)
 ```
 
@@ -129,7 +129,23 @@ head(crosswalk)
 
 ## Wrangle vars from other stages into crosswalk master tbl if required
 ```{r}
+cw_databands <- crosswalk |> 
+  select(Source_ID, data_id_code, band_layer_name) |> 
+  distinct() |> 
+  mutate(across(where(is.character), as.factor)) |> 
+  mutate(Source_ID_fct = factor(str_pad(Source_ID, 4, pad = "0"))) |> 
+  arrange(Source_ID_fct) |> 
+  group_by(Source_ID_fct) |> 
+  mutate(band_no = factor(str_pad(seq_along(Source_ID_fct), 3, pad = "0"))) |> 
+  mutate(band_ID = paste0(Source_ID_fct, band_no)) |> 
+  ungroup() |> 
+  select(!Source_ID_fct)
+```
 
+
+```{r}
+crosswalk <- crosswalk  |> 
+  left_join(cw_databands)
 ```
 
 
@@ -143,7 +159,7 @@ head(crosswalk)
 # Split
 ```{r}
 crosswalk  |>  
-  split(crosswalk$data_id_code)  |> 
+  split(crosswalk$band_ID)  |> 
   list2env(envir = globalenv())
 ```
 
