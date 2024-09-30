@@ -1,5 +1,7 @@
 # Script to wrangle out crosswalk fields into GEE script
 
+library(tidyverse)
+library(googlesheets4)
 rm(list=ls())
 
 
@@ -9,6 +11,13 @@ crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V
   filter(status == "final" |
            status == "Final")
 
+
+
+crosswalk <- crosswalk |> 
+  mutate(in_class_value = case_when(
+    is.na(as.numeric(in_class_value)) ~ paste0("'", in_class_value, "'"),  # Wrap strings in quotes
+    TRUE ~ in_class_value  # Keep numeric values as is
+  ))
 
 # Split
 crosswalk  |>  
@@ -35,10 +44,10 @@ process_dataframe <- function(df_name) {
   
   # Extract the fields row-wise, keeping NA and repeated values
   in_class_field_name <- df$in_class_field_name
-  in_value <- df$in_class_value
-  out_value <- df$out_class_value
-  efg_names <- df$efg_name
-  efg_codes <- df$efg_code
+  in_class_value <- df$in_class_value
+  out_class_value <- df$out_class_value
+  efg_name <- df$efg_name
+  efg_code <- df$efg_code
   
   # Generate the JavaScript dictionary content with aligned values row by row
   js_content <- paste0(
@@ -47,10 +56,10 @@ process_dataframe <- function(df_name) {
     "  data_id_code: '", data_id_code, "',\n",
     "  ee_asset_id: '", ee_asset_id, "',\n",
     "  in_class_field_name: [", paste0("'", in_class_field_name, "'", collapse = ", "), "],\n",
-    "  in_value: [", paste0(in_value, collapse = ", "), "],\n",
-    "  out_value: [", paste0(out_value, collapse = ", "), "],\n",
-    "  efg_names: [", paste0("'", efg_names, "'", collapse = ", "), "],\n",
-    "  efg_codes: [", paste0("'", efg_codes, "'", collapse = ", "), "]\n",
+    "  in_class_value: [", paste0(in_class_value, collapse = ", "), "],\n",
+    "  out_class_value: [", paste0(out_class_value, collapse = ", "), "],\n",
+    "  efg_name: [", paste0("'", efg_name, "'", collapse = ", "), "],\n",
+    "  efg_code: [", paste0("'", efg_code, "'", collapse = ", "), "]\n",
     "};\n"
   )
   
