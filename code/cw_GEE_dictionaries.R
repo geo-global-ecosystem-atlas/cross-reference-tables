@@ -9,15 +9,22 @@ crosswalk <- read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V
   mutate(in_class_value = map(in_class_value, ~ifelse(is.null(.x), NA, .x)) |>  unlist()) |>  # In-class vals mixed var types - need unlisting
   mutate(efg_code = map(efg_code, ~ifelse(is.null(.x), NA, .x)) |>  unlist()) |>  # so does efg_code
   filter(status == "final" |
-           status == "Final")
-
-
-
-crosswalk <- crosswalk |> 
+           status == "Final") |> 
   mutate(in_class_value = case_when(
     is.na(as.numeric(in_class_value)) ~ paste0("'", in_class_value, "'"),  # Wrap strings in quotes
-    TRUE ~ in_class_value  # Keep numeric values as is
-  ))
+    TRUE ~ in_class_value  # but keep numeric values as is
+  )) 
+
+
+# Also need to add in year (from Stage 2 sheet))
+crosswalk <- 
+  read_sheet("https://docs.google.com/spreadsheets/d/1GciZm_1l7q_P_2V7rjKcQXCTBzYogo5MpqruoKwim_o/edit#gid=32989082", sheet = "Stage_2_MASTER") |> 
+  select(Source_ID, 
+         band_layer_name,
+         year_end) |> 
+  right_join(crosswalk)
+  
+  
 
 # Split
 crosswalk  |>  
@@ -43,6 +50,8 @@ process_dataframe <- function(df_name) {
   ee_asset_id <- paste0("projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/", df$data_id_code[1])
   
   # Extract the fields row-wise, keeping NA and repeated values
+  source_id <- df$Source_ID[1]
+  year_end <- df$year_end[1]
   in_class_field_name <- df$in_class_field_name
   in_class_value <- df$in_class_value
   out_class_value <- df$out_class_value
@@ -54,6 +63,8 @@ process_dataframe <- function(df_name) {
     "//", data_id_code, "\n",
     "var ", data_id_code, " = {\n",
     "  data_id_code: '", data_id_code, "',\n",
+    "  source_id: [", source_id, "],\n",
+    "  year_end: [", year_end, "],\n",
     "  ee_asset_id: '", ee_asset_id, "',\n",
     "  in_class_field_name: [", paste0("'", in_class_field_name, "'", collapse = ", "), "],\n",
     "  in_class_value: [", paste0(in_class_value, collapse = ", "), "],\n",
@@ -74,5 +85,5 @@ combined_js_content <- cw_names %>%
 # Write the combined result to a markdown (.md) file
 write(combined_js_content, file = "combined_output.md")
 
-# View the combined JavaScript content (optional)
-cat(combined_js_content)
+# View the combined JavaScript content
+#cat(combined_js_content)
