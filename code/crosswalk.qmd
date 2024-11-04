@@ -1,5 +1,5 @@
 ---
-title: "create crosswalk tables"
+title: "Create crosswalk tables"
 author: "Ben Cresswell"
 date: today
 date-format: "DD/MM/YYYY"
@@ -160,7 +160,7 @@ rm(stage_1, stage_2, stage_3)
 # Split
 ```{r}
 crosswalk  |>  
-  split(crosswalk$band_ID)  |> 
+  split(crosswalk$dat)  |> 
   list2env(envir = globalenv())
 ```
 
@@ -176,7 +176,7 @@ for (i in dfs){
 ```
 
 
-
+# Draft GEE work
 ```{r}
 # Load the necessary libraries
 library(tidyverse)
