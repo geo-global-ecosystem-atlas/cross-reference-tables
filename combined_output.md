@@ -1,6 +1,8 @@
 //aad_macqis_veg_2015
 var aad_macqis_veg_2015 = {
   data_id_code: 'aad_macqis_veg_2015',
+  source_id: [2],
+  year_end: [1997],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/aad_macqis_veg_2015',
   in_class_field_name: ['VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'VEG_TYPE_N', 'STORAGE_TY'],
   in_class_value: ['Durvillaea', 'Mire', 'None', 'Closed tall herb vegetation', 'Open short herb vegetation', 'Closed short herb vegetation', 'Vegetation complex', 'Closed  vegetation', 'Lake'],
@@ -13,6 +15,8 @@ var aad_macqis_veg_2015 = {
 //aberuni_wales_eco_2024
 var aberuni_wales_eco_2024 = {
   data_id_code: 'aberuni_wales_eco_2024',
+  source_id: [181],
+  year_end: [2020],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/aberuni_wales_eco_2024',
   in_class_field_name: ['raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code'],
   in_class_value: [3, 4, 5, 9, 10, 12, 16, 23, 35, 38, 41, 44, 45, 50, 58, 61, 70, 71, 72, 78, 85, 86, 90, 106, 107, 119, 128, 130, 131, 132, 134, 135, 142, 143, 155, 159, 200, 201, 202, 0],
@@ -25,6 +29,8 @@ var aberuni_wales_eco_2024 = {
 //aca_global_reef_2022
 var aca_global_reef_2022 = {
   data_id_code: 'aca_global_reef_2022',
+  source_id: [9],
+  year_end: [2020],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/aca_global_reef_2022',
   in_class_field_name: ['benthic_class_names', 'benthic_class_names', 'benthic_class_names', 'benthic_class_names', 'benthic_class_names', 'benthic_class_names', 'benthic_class_names'],
   in_class_value: [0, 1, 2, 3, 4, 5, 6],
@@ -37,6 +43,8 @@ var aca_global_reef_2022 = {
 //cambridge_global_saltmarsh_2023
 var cambridge_global_saltmarsh_2023 = {
   data_id_code: 'cambridge_global_saltmarsh_2023',
+  source_id: [16],
+  year_end: [2020],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/cambridge_global_saltmarsh_2023',
   in_class_field_name: ['Raster code'],
   in_class_value: [1],
@@ -49,6 +57,8 @@ var cambridge_global_saltmarsh_2023 = {
 //cbs_neth_eco_2022
 var cbs_neth_eco_2022 = {
   data_id_code: 'cbs_neth_eco_2022',
+  source_id: [68],
+  year_end: [2022],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/cbs_neth_eco_2022',
   in_class_field_name: ['raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code'],
   in_class_value: [21, 22, 23, 24, 31, 32, 41, 42, 43, 51, 52, 71, 72, 81, 91, 111, 112, 121, 1011, 1012, 1021, 1022, 0],
@@ -61,6 +71,8 @@ var cbs_neth_eco_2022 = {
 //des_qld_veg_2021
 var des_qld_veg_2021 = {
   data_id_code: 'des_qld_veg_2021',
+  source_id: [8],
+  year_end: [2021],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/des_qld_veg_2021',
   in_class_field_name: ['DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M', 'DBVG1M'],
   in_class_value: ['1a', '1b', '2a', '2b', '2c', '2d', '3a', '4a', '4b', '5a', '5b', '5c', '5d', '6a', '6b', '7a', '7b', '8a', '8b', '9a', '9b', '9c', '9d', 9e, '9f', '9g', '9h', '10a', '10b', '11a', '11b', '11c', '12a', '12b', '13a', '13b', '13c', '13d', '14a', '14b', '14c', '14d', '15a', '15b', '16a', '16b', '16c', '16d', '17a', '17b', '17c', '18a', '18b', '18c', '18d', '19a', '19b', '19c', '19d', '20a', '21a', '21b', '22a', '22b', '22c', '23a', '23b', '24a', '24b', '25a', '26a', '27a', '27b', '27c', '28a', '28b', '28c', '28d', 28e, '29a', '29b', '30a', '30b', '31a', '31b', '32a', '32b', '33a', '33b', '34a', '34b', '34c', '34d', 34e, '34f', '34g', '35a', '35b', 'water', 'non-remnant', 'plantation'],
@@ -73,6 +85,8 @@ var des_qld_veg_2021 = {
 //destatis_germ_eco_2021
 var destatis_germ_eco_2021 = {
   data_id_code: 'destatis_germ_eco_2021',
+  source_id: [152],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/destatis_germ_eco_2021',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255],
@@ -85,6 +99,8 @@ var destatis_germ_eco_2021 = {
 //gbrmpa_aus_benth_2021
 var gbrmpa_aus_benth_2021 = {
   data_id_code: 'gbrmpa_aus_benth_2021',
+  source_id: [153],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/gbrmpa_aus_benth_2021',
   in_class_field_name: ['Value', 'Value', 'Value', 'Value'],
   in_class_value: [11, 12, 13, 14],
@@ -97,18 +113,22 @@ var gbrmpa_aus_benth_2021 = {
 //gfw_global_plant_2024
 var gfw_global_plant_2024 = {
   data_id_code: 'gfw_global_plant_2024',
+  source_id: [171],
+  year_end: [2021],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/gfw_global_plant_2024',
   in_class_field_name: ['simpleType', 'simpleType'],
-  in_class_value: ['Tree crops', 'Planted forest'],
-  out_class_value: [48, 48],
-  efg_name: ['Plantations', 'Plantations'],
-  efg_code: ['T7.3', 'T7.3']
+  in_class_value: ['Planted forest', 'Tree crops'],
+  out_class_value: [255, 48],
+  efg_name: ['No Data', 'Plantations'],
+  efg_code: ['NA', 'T7.3']
 };
 
 
 //gfw_stham_soy_2022
 var gfw_stham_soy_2022 = {
   data_id_code: 'gfw_stham_soy_2022',
+  source_id: [172],
+  year_end: [2022],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/gfw_stham_soy_2022',
   in_class_field_name: ['raster code'],
   in_class_value: [1],
@@ -121,6 +141,8 @@ var gfw_stham_soy_2022 = {
 //glims_global_glacier_2013
 var glims_global_glacier_2013 = {
   data_id_code: 'glims_global_glacier_2013',
+  source_id: [15],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/glims_global_glacier_2013',
   in_class_field_name: ['line_type', 'line_type', 'line_type', 'line_type', 'line_type', 'line_type'],
   in_class_value: ['glac_bound', 'intrnl_rock', 'pro_lake', 'debris_cov', 'basin_bound', 'supra_lake'],
@@ -133,6 +155,8 @@ var glims_global_glacier_2013 = {
 //gmw_global_mangrove_2022
 var gmw_global_mangrove_2022 = {
   data_id_code: 'gmw_global_mangrove_2022',
+  source_id: [11],
+  year_end: [2020],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/gmw_global_mangrove_2022',
   in_class_field_name: ['PXLVAL'],
   in_class_value: [1],
@@ -145,6 +169,8 @@ var gmw_global_mangrove_2022 = {
 //ibge_brazil_veg_2021
 var ibge_brazil_veg_2021 = {
   data_id_code: 'ibge_brazil_veg_2021',
+  source_id: [138],
+  year_end: [2017],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/ibge_brazil_veg_2021',
   in_class_field_name: ['clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi', 'clas_domi'],
   in_class_value: ['Aa', 'Aab', 'Aac', 'Aap', 'Ab', 'Abb', 'Abc', 'Abp', 'Ac', 'Acc', 'Acp', 'Ag', 'Ai', 'Ap', 'Ar', 'As', 'Asb', 'Asc', 'Asp', 'Ass', 'Ca', 'Cb', 'Cbe', 'Cm', 'Cmu', 'Cs', 'Cse', 'Csu', 'Da', 'Dae', 'Dau', 'Db', 'Dbe', 'Dbu', 'Dl', 'Dm', 'Dme', 'Dmu', 'Dn', 'Ds', 'Dse', 'Dsu', 'Eaf', 'Eg', 'Egf', 'Egs', 'Epf', 'Fa', 'Fae', 'Fau', 'Fb', 'Fbe', 'Fm', 'Fme', 'Fs', 'Fse', 'Fsu', 'Ha', 'Hae', 'Hb', 'Hbe', 'Hbu', 'Hs', 'Hse', 'Hsu', 'Iu', 'La', 'Lap', 'Las', 'Lb', 'Lbp', 'Lbs', 'Ldp', 'Lds', 'Lg', 'Lgs', 'LOt', 'Magua', 'Ml', 'Mm', 'ONt', 'Pa', 'Paa', 'Paap', 'Paas', 'Pah', 'Pahp', 'Pahs', 'Pap', 'Pf', 'Pfh', 'Pfm', 'Pm', 'Pma', 'Pmb', 'Pmh', 'R', 'Ra', 'Re', 'rl', 'rlh', 'rm', 'rmb', 'rmh', 'Rp', 'Rs', 'rsb', 'rsh', 'Sa', 'Saf', 'Sas', 'Sd', 'Sg', 'Sgf', 'Sgs', 'SNt', 'SOt', 'Sp', 'Spf', 'Sps', 'SPt', 'STNt', 'STt', 'Ta', 'Taf', 'Tap', 'Tas', 'Tb', 'Tbs', 'Td', 'Tdp', 'Tds', 'Tgf', 'Tgp', 'Tgs', 'TNt', 'Tp', 'Tpf', 'Tpp', 'Tps', 'TPt', 'Vs', 'Vsp', 'Vss'],
@@ -157,6 +183,8 @@ var ibge_brazil_veg_2021 = {
 //inegi_mex_lcov_2021
 var inegi_mex_lcov_2021 = {
   data_id_code: 'inegi_mex_lcov_2021',
+  source_id: [122],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/inegi_mex_lcov_2021',
   in_class_field_name: ['DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO', 'DESCRIPCIO'],
   in_class_value: ['ACUÍCOLA', 'AGRICULTURA DE HUMEDAD ANUAL', 'AGRICULTURA DE HUMEDAD ANUAL Y PERMANENTE', 'AGRICULTURA DE HUMEDAD ANUAL Y SEMIPERMANENTE', 'AGRICULTURA DE HUMEDAD PERMANENTE', 'AGRICULTURA DE HUMEDAD SEMIPERMANENTE', 'AGRICULTURA DE HUMEDAD SEMIPERMANENTE Y PERMANENTE', 'AGRICULTURA DE RIEGO ANUAL', 'AGRICULTURA DE RIEGO ANUAL Y PERMANENTE', 'AGRICULTURA DE RIEGO ANUAL Y SEMIPERMANENTE', 'AGRICULTURA DE RIEGO PERMANENTE', 'AGRICULTURA DE RIEGO SEMIPERMANENTE', 'AGRICULTURA DE RIEGO SEMIPERMANENTE Y PERMANENTE', 'AGRICULTURA DE TEMPORAL ANUAL', 'AGRICULTURA DE TEMPORAL ANUAL Y PERMANENTE', 'AGRICULTURA DE TEMPORAL ANUAL Y SEMIPERMANENTE', 'AGRICULTURA DE TEMPORAL PERMANENTE', 'AGRICULTURA DE TEMPORAL SEMIPERMANENTE', 'AGRICULTURA DE TEMPORAL SEMIPERMANENTE Y PERMANENTE', 'ASENTAMIENTOS HUMANOS', 'BOSQUE CULTIVADO', 'BOSQUE DE AYARÍN', 'BOSQUE DE CEDRO', 'BOSQUE DE ENCINO', 'BOSQUE DE ENCINO-PINO', 'BOSQUE DE GALERÍA', 'BOSQUE DE MEZQUITE', 'BOSQUE DE OYAMEL', 'BOSQUE DE PINO', 'BOSQUE DE PINO-ENCINO', 'BOSQUE DE TÁSCATE', 'BOSQUE INDUCIDO', 'BOSQUE MESÓFILO DE MONTAÑA', 'CHAPARRAL', 'CUERPO DE AGUA', 'DESPROVISTO DE VEGETACIÓN', 'MANGLAR', 'MATORRAL CRASICAULE', 'MATORRAL DESÉRTICO MICRÓFILO', 'MATORRAL DESÉRTICO ROSETÓFILO', 'MATORRAL ESPINOSO TAMAULIPECO', 'MATORRAL ROSETÓFILO COSTERO', 'MATORRAL SARCOCAULE', 'MATORRAL SARCO-CRASICAULE', 'MATORRAL SARCO-CRASICAULE DE NEBLINA', 'MATORRAL SUBMONTANO', 'MATORRAL SUBTROPICAL', 'MEZQUITAL TROPICAL', 'MEZQUITAL XERÓFILO', 'PALMAR INDUCIDO', 'PALMAR NATURAL', 'PASTIZAL CULTIVADO', 'PASTIZAL GIPSÓFILO', 'PASTIZAL HALÓFILO', 'PASTIZAL INDUCIDO', 'PASTIZAL NATURAL', 'POPAL', 'PRADERA DE ALTA MONTAÑA', 'SABANA', 'SABANOIDE', 'SELVA ALTA PERENNIFOLIA', 'SELVA ALTA SUBPERENNIFOLIA', 'SELVA BAJA CADUCIFOLIA', 'SELVA BAJA ESPINOSA CADUCIFOLIA', 'SELVA BAJA ESPINOSA SUBPERENNIFOLIA', 'SELVA BAJA PERENNIFOLIA', 'SELVA BAJA SUBCADUCIFOLIA', 'SELVA BAJA SUBPERENNIFOLIA', 'SELVA DE GALERÍA', 'SELVA MEDIANA CADUCIFOLIA', 'SELVA MEDIANA SUBCADUCIFOLIA', 'SELVA MEDIANA SUBPERENNIFOLIA', 'SIN VEGETACIÓN APARENTE', 'TULAR', 'VEGETACIÓN DE DESIERTOS ARENOSOS', 'VEGETACIÓN DE DUNAS COSTERAS', 'VEGETACIÓN DE GALERÍA', 'VEGETACIÓN DE PETÉN', 'VEGETACIÓN GIPSÓFILA', 'VEGETACIÓN HALÓFILA HIDRÓFILA', 'VEGETACIÓN HALÓFILA XERÓFILA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE AYARÍN', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE CEDRO', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE ENCINO', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE ENCINO-PINO', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE GALERÍA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE MEZQUITE', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE OYAMEL', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE PINO', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE PINO-ENCINO', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE DE TÁSCATE', 'VEGETACIÓN SECUNDARIA ARBÓREA DE BOSQUE MESÓFILO DE MONTAÑA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE MANGLAR', 'VEGETACIÓN SECUNDARIA ARBÓREA DE MEZQUITAL TROPICAL', 'VEGETACIÓN SECUNDARIA ARBÓREA DE PALMAR NATURAL', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA ALTA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA ALTA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA ESPINOSA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA ESPINOSA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA SUBCADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA BAJA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA DE GALERÍA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA MEDIANA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA MEDIANA SUBCADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE SELVA MEDIANA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBÓREA DE VEGETACIÓN DE PETÉN', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE AYARÍN', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE CEDRO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE ENCINO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE ENCINO-PINO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE GALERÍA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE MEZQUITE', 'VEGETACION SECUNDARIA ARBUSTIVA DE BOSQUE DE OYAMEL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE PINO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE PINO-ENCINO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE DE TÁSCATE', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE BOSQUE MESÓFILO DE MONTAÑA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE CHAPARRAL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MANGLAR', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL CRASICAULE', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL DESÉRTICO MICRÓFILO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL DESÉRTICO ROSETÓFILO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL ESPINOSO TAMAULIPECO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL ROSETÓFILO COSTERO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL SARCOCAULE', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL SARCO-CRASICAULE', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL SARCO-CRASICAULE DE NEBLI', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL SUBMONTANO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MATORRAL SUBTROPICAL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MEZQUITAL TROPICAL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE MEZQUITAL XERÓFILO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE PALMAR NATURAL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE PASTIZAL GIPSÓFILO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE PASTIZAL HALÓFILO', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE PASTIZAL NATURAL', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA ALTA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA ALTA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA ESPINOSA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA ESPINOSA SUBPERENNIFOLI', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA SUBCADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA BAJA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA DE GALERÍA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA MEDIANA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA MEDIANA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA MEDIANA SUBCADUCIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE SELVA MEDIANA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE VEGETACIÓN DE DESIERTOS ARENOSOS', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE VEGETACIÓN DE DUNAS COSTERAS', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE VEGETACIÓN DE GALERÍA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE VEGETACIÓN HALÓFILA HIDRÓFILA', 'VEGETACIÓN SECUNDARIA ARBUSTIVA DE VEGETACIÓN HALÓFILA XERÓFILA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE ENCINO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE ENCINO-PINO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE OYAMEL', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE PINO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE PINO-ENCINO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE DE TÁSCATE', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE BOSQUE MESÓFILO DE MONTAÑA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MANGLAR', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL CRASICAULE', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL DE CONIFERAS', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL DESÉRTICO MICRÓFILO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL DESÉRTICO ROSETÓFILO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL ESPINOSO TAMAULIPECO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL ROSETÓFILO COSTERO', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL SARCO-CRASICAULE', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE MATORRAL SARCO-CRASICAULE DE NEBLI', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE PALMAR NATURAL', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE PASTIZAL NATURAL', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA ALTA PERENNIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA ALTA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA BAJA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA BAJA ESPINOSA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA BAJA ESPINOSA SUBPERENNIFOLI', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA MEDIANA CADUCIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA MEDIANA SUBCADUCIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE SELVA MEDIANA SUBPERENNIFOLIA', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE VEGETACIÓN DE DUNAS COSTERAS', 'VEGETACIÓN SECUNDARIA HERBÁCEA DE VEGETACIÓN HALÓFILA XERÓFILA'],
@@ -169,6 +197,8 @@ var inegi_mex_lcov_2021 = {
 //iucn_get_M2.1_2021
 var iucn_get_M2.1_2021 = {
   data_id_code: 'iucn_get_M2.1_2021',
+  source_id: [198],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M2.1_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -181,6 +211,8 @@ var iucn_get_M2.1_2021 = {
 //iucn_get_M2.2_2021
 var iucn_get_M2.2_2021 = {
   data_id_code: 'iucn_get_M2.2_2021',
+  source_id: [199],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M2.2_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -193,6 +225,8 @@ var iucn_get_M2.2_2021 = {
 //iucn_get_M2.3_2021
 var iucn_get_M2.3_2021 = {
   data_id_code: 'iucn_get_M2.3_2021',
+  source_id: [200],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M2.3_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -205,6 +239,8 @@ var iucn_get_M2.3_2021 = {
 //iucn_get_M2.4_2021
 var iucn_get_M2.4_2021 = {
   data_id_code: 'iucn_get_M2.4_2021',
+  source_id: [201],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M2.4_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -217,6 +253,8 @@ var iucn_get_M2.4_2021 = {
 //iucn_get_M3.1_2021
 var iucn_get_M3.1_2021 = {
   data_id_code: 'iucn_get_M3.1_2021',
+  source_id: [203],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.1_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -229,6 +267,8 @@ var iucn_get_M3.1_2021 = {
 //iucn_get_M3.2_2021
 var iucn_get_M3.2_2021 = {
   data_id_code: 'iucn_get_M3.2_2021',
+  source_id: [204],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.2_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -241,6 +281,8 @@ var iucn_get_M3.2_2021 = {
 //iucn_get_M3.3_2021
 var iucn_get_M3.3_2021 = {
   data_id_code: 'iucn_get_M3.3_2021',
+  source_id: [205],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.3_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -253,6 +295,8 @@ var iucn_get_M3.3_2021 = {
 //iucn_get_M3.4_2021
 var iucn_get_M3.4_2021 = {
   data_id_code: 'iucn_get_M3.4_2021',
+  source_id: [206],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.4_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -265,6 +309,8 @@ var iucn_get_M3.4_2021 = {
 //iucn_get_M3.5_2021
 var iucn_get_M3.5_2021 = {
   data_id_code: 'iucn_get_M3.5_2021',
+  source_id: [207],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.5_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [2],
@@ -277,6 +323,8 @@ var iucn_get_M3.5_2021 = {
 //iucn_get_M3.6_2021
 var iucn_get_M3.6_2021 = {
   data_id_code: 'iucn_get_M3.6_2021',
+  source_id: [208],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/iucn_get_M3.6_2021',
   in_class_field_name: ['occurrence'],
   in_class_value: [1],
@@ -289,6 +337,8 @@ var iucn_get_M3.6_2021 = {
 //jcu_aus_saltmarsh_2023
 var jcu_aus_saltmarsh_2023 = {
   data_id_code: 'jcu_aus_saltmarsh_2023',
+  source_id: [10],
+  year_end: [2022],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/jcu_aus_saltmarsh_2023',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [0, 1, 0, 1],
@@ -301,6 +351,8 @@ var jcu_aus_saltmarsh_2023 = {
 //must_malawi_eco_2024
 var must_malawi_eco_2024 = {
   data_id_code: 'must_malawi_eco_2024',
+  source_id: [215],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/must_malawi_eco_2024',
   in_class_field_name: ['Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem', 'Ecosystem'],
   in_class_value: ['Afromontain rain forest with other forests and wetlands', 'Afromontane rain forest', 'Brachystegia-Juberrnadia woodlands', 'Bua and Dwanga Inshore Lake', 'Bua Catchment Rivers', 'Bua-Lusa Wetlands', 'Central Offshore Lake', 'Deciduous Forest and thicket', 'Drier miombo woodland', 'Dwangwa Catchment Rivers', 'Dwangwa Catchment Wetlands', 'Eastern Inlet Inshore Lake', 'Edaphic grassland on drainage', 'Edaphic wooded grassland', 'Elephant Marsh Wetlands', 'Karonga Lakeshore Rivers', 'Karonga Lakeshore Wetlands', 'Kasankha Bay Inshore Lake', 'Lake Chilwa', 'Lake Chilwa Catchment Rivers', 'Lake Chilwa Wetlands', 'Lake Chiuta Catchment Rivers', 'Lake Chiuta Wetlands', 'Lake Malombe', 'Lakeshore Zambezian woodlands', 'Linthipe Catchment Rivers', 'Linthipe Wetlands', 'Lower Shire Swamp', 'Majete Wetlands', 'Miombo woodland on hills and rocky outcrops', 'Montane Ericaceous belt', 'Mopane woodland and scrub woodland', 'Mosaic of montane grassland and afromontane forest', 'Mulanje Mountain Ericaceous belt', 'Mulanje Mountain Miombo woodlands', 'Ndindi Marsh Wetlands', 'Nkhatabay and Central Inshore Lake', 'Nkhatabay Lakeshore Catchment Rivers', 'Nkhatabay Lakeshore Wetlands', 'Nkhotakota Inshore Lake', 'Nkhotakota Lakeshore Catchment Rivers', 'Nkhotakota-Salima Lakeshore Wetlands', 'North Rukuru Catchment Rivers', 'North Rukuru Wetlands', 'North Zambezian undifferentiated woodland', 'Northern Inshore Lake', 'Northern Offshore Lake', 'Open Miombo hills', 'Ruo Catchment Rivers', 'Shire Catchment Rivers', 'Shoreline Sandy Areas', 'Songwe Catchment Rivers', 'Songwe Catchment Wetlands', 'South East Lakeshore Catchment Rivers', 'South East Lakeshore Wetlands', 'South Rukuru Catchment Rivers', 'South Rukuru Wetlands', 'South West Lakeshore Catchment Rivers', 'Southern Offshore Lake', 'Tall Miombo', 'Terminalia sericea woodland', 'Transition Woodland', 'Vwaza Marsh Wetlands', 'Wetter miombo woodland', 'Zambezian miombo', 'Zanzibar-Inhambane transitional lowland rain forest', 'Zanzibar-Inhambane transitional rain forest'],
@@ -313,6 +365,8 @@ var must_malawi_eco_2024 = {
 //noru_maldiv_seagrass_2024
 var noru_maldiv_seagrass_2024 = {
   data_id_code: 'noru_maldiv_seagrass_2024',
+  source_id: [110],
+  year_end: [2021],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/noru_maldiv_seagrass_2024',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [0, 1, 0, 1],
@@ -325,6 +379,8 @@ var noru_maldiv_seagrass_2024 = {
 //nsidc_nhemis_seaice_2024
 var nsidc_nhemis_seaice_2024 = {
   data_id_code: 'nsidc_nhemis_seaice_2024',
+  source_id: [69],
+  year_end: [2024],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/nsidc_nhemis_seaice_2024',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [1, 0, 253, 254, 255],
@@ -337,6 +393,8 @@ var nsidc_nhemis_seaice_2024 = {
 //nsidc_shemis_seaice_2023
 var nsidc_shemis_seaice_2023 = {
   data_id_code: 'nsidc_shemis_seaice_2023',
+  source_id: [72],
+  year_end: [2023],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/nsidc_shemis_seaice_2023',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [1, 0, 253, 254, 255],
@@ -349,6 +407,8 @@ var nsidc_shemis_seaice_2023 = {
 //nswgov_nsw_veg_2012
 var nswgov_nsw_veg_2012 = {
   data_id_code: 'nswgov_nsw_veg_2012',
+  source_id: [213],
+  year_end: [2012],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/nswgov_nsw_veg_2012',
   in_class_field_name: ['ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName', 'ClassName'],
   in_class_value: ['Aeolian Chenopod Shrublands', 'Alpine Bogs and Fens', 'Alpine Fjaeldmarks', 'Alpine Heaths', 'Alpine Herbfields', 'Brigalow Clay Plain Woodlands', 'Central Gorge Dry Sclerophyll Forests', 'Clarence Dry Sclerophyll Forests', 'Cleared', 'Coastal Dune Dry Sclerophyll Forests', 'Coastal Floodplain Forests', 'Coastal Freshwater Lagoons and Floodplain Meadows', 'Coastal Headland and Foredune Scrubs', 'Coastal Heath Swamps', 'Coastal Swamp Forests', 'Coastal Valley Grassy Woodlands', 'Cool Temperate Rainforests', 'Cumberland Dry Sclerophyll Forests', 'Desert Woodlands', 'Dry Rainforests', 'Dune Mallee Woodlands', 'Eastern Riverine Forests', 'Floodplain Transition Woodlands', 'Floodplain-Estuarine Transition Forests', 'Gibber Chenopod Shrublands', 'Gibber Transition Shrublands', 'Hunter-Macleay Dry Sclerophyll Forests', 'Inland Floodplain Shrublands', 'Inland Floodplain Swamps', 'Inland Floodplain Woodlands', 'Inland Riverine Forests', 'Inland Rocky Hill Woodlands', 'Inland Saline Lakes', 'Littoral Rainforests', 'Mangrove Swamps', 'Maritime Grasslands', 'Montane Bogs and Fens', 'Montane Lakes', 'Montane Wet Sclerophyll Forests', 'New England Dry Sclerophyll Forests', 'New England Grassy Woodlands', 'North Coast Dry Sclerophyll Forests', 'North Coast Wet Sclerophyll Forests', 'Northern Escarpment Dry Sclerophyll Forests', 'Northern Escarpment Wet Sclerophyll Forests', 'Northern Gorge Dry Sclerophyll Forests', 'Northern Hinterland Wet Sclerophyll Forests', 'Northern Montane Heaths', 'Northern Tableland Dry Sclerophyll Forests', 'Northern Tableland Wet Sclerophyll Forests', 'Northern Warm Temperate Rainforests', 'North-west Alluvial Sand Woodlands', 'North-west Floodplain Woodlands', 'North-west Plain Shrublands', 'North-west Slopes Dry Sclerophyll Woodlands', 'Oceanic Cloud Forests', 'Oceanic Rainforests', 'Pilliga Outwash Dry Sclerophyll Forests', 'Riverine Chenopod Shrublands', 'Riverine Plain Grasslands', 'Riverine Plain Woodlands', 'Riverine Sandhill Woodlands', 'Saltmarshes', 'Sand Plain Mallee Woodlands', 'Sand Plain Mulga Shrublands', 'Seagrass Meadows', 'Semi-arid Floodplain Grasslands', 'Semi-arid Sand Plain Woodlands', 'South Coast Heaths', 'South Coast Sands Dry Sclerophyll Forests', 'South Coast Wet Sclerophyll Forests', 'South East Dry Sclerophyll Forests', 'Southern Escarpment Wet Sclerophyll Forests', 'Southern Hinterland Dry Sclerophyll Forests', 'Southern Lowland Wet Sclerophyll Forests', 'Southern Montane Heaths', 'Southern Riverina Grasslands', 'Southern Tableland Dry Sclerophyll Forests', 'Southern Tableland Grassy Woodlands', 'Southern Tableland Wet Sclerophyll Forests', 'Southern Warm Temperate Rainforests', 'Southern Wattle Dry Sclerophyll Forests', 'Stony Desert Mulga Shrublands', 'Subalpine Woodlands', 'Subtropical Rainforests', 'Subtropical Semi-arid Woodlands', 'Sydney Coastal Dry Sclerophyll Forests', 'Sydney Coastal Heaths', 'Sydney Hinterland Dry Sclerophyll Forests', 'Sydney Montane Dry Sclerophyll Forests', 'Sydney Montane Heaths', 'Sydney Sand Flats Dry Sclerophyll Forests', 'Tableland Clay Grassy Woodlands', 'Temperate Montane Grasslands', 'Temperate Swamp Forests', 'Upper Riverina Dry Sclerophyll Forests', 'Wadi Woodlands', 'Wallum Sand Heaths', 'Western Peneplain Woodlands', 'Western Slopes Dry Sclerophyll Forests', 'Western Slopes Grasslands', 'Western Slopes Grassy Woodlands', 'Western Vine Thickets', 'Yetman Dry Sclerophyll Forests'],
@@ -361,6 +421,8 @@ var nswgov_nsw_veg_2012 = {
 //sanbi_sthafrica_eco_2022
 var sanbi_sthafrica_eco_2022 = {
   data_id_code: 'sanbi_sthafrica_eco_2022',
+  source_id: [180],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/sanbi_sthafrica_eco_2022',
   in_class_field_name: ['efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code', 'efg_code'],
   in_class_value: ['F2.2', 'F3.2', 'FM1.2', 'FM1.3', 'M1.2', 'M1.3', 'M1.5', 'M1.6', 'M1.7', 'M1.8', 'M3.1', 'M3.2', 'M3.3', 'M3.4', 'M3.5', 'MFT1.2', 'MT1.1', 'MT1.3', 'MT1.4', 'MT2.1', 'T1.2', 'T2.4', 'T3.1', 'T3.2', 'T4.1', 'T4.2', 'T4.5', 'T5.1', 'T5.2', 'T5.5', 'T7.1', 'T7.3', 'T7.4', 'T7.5', 'TF1.1'],
@@ -373,6 +435,8 @@ var sanbi_sthafrica_eco_2022 = {
 //sbi_italy_eco_2021
 var sbi_italy_eco_2021 = {
   data_id_code: 'sbi_italy_eco_2021',
+  source_id: [28],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/sbi_italy_eco_2021',
   in_class_field_name: ['Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi', 'Ecosistemi'],
   in_class_value: ['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7a', 'C7b', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29', 'C30', 'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39', 'C40', 'C41', 'C42', 'C43', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'G1', 'G2', 'G3', 'G4', 'G5', 'G6', 'G7', 'G8', 'G9', 'G10', 'G11', 'G12', 'G13', 'G14', 'G15', 'G16', 'G17', 'G18'],
@@ -385,42 +449,22 @@ var sbi_italy_eco_2021 = {
 //syke_finland_eco_2018b
 var syke_finland_eco_2018b = {
   data_id_code: 'syke_finland_eco_2018b',
+  source_id: [174],
+  year_end: [2017],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/syke_finland_eco_2018b',
-  in_class_field_name: ['LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi'],
-  in_class_value: ['T01.01.01', 'T01.01.02', 'T01.01.03', 'T01.02.02', 'T01.02.03', 'T01.03.01', 'T01.03.02', 'T01.03.03', 'LuTU-tyyppi ei tiedossa', 'LuTU-tyypittelyssä kuuluu lampiin, alle 10 ha', 'Pienet ja keskikokoiset vähähumuksiset c', 'Suuret vähähumuksiset järvet', 'Matalat vähähumuksiset järvet', 'Pienet humusjärvet', 'Keskikokoiset humusjärvet', 'Suuret humusjärvet', 'Matalat humusjärvet', 'Runsashumuksiset järvet', 'Matalat runsashumuksiset järvet', 'Pohjois-Lapin järvet', 'Runsasravinteiset järvet', 'Runsaskalkkiset järvet', 'Voimakkaasti pohjavesivaikutteiset järvet'],
-  out_class_value: [7, 7, 7, 7, 7, 7, 7, 7, 255, 255, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95],
-  efg_name: ['Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'No Data', 'No Data', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes'],
-  efg_code: ['T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'NA', 'NA', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4']
-};
-
-
-//tnc_carib_benthic_2024
-var tnc_carib_benthic_2024 = {
-  data_id_code: 'tnc_carib_benthic_2024',
-  ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/tnc_carib_benthic_2024',
-  in_class_field_name: ['Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value', 'Value'],
-  in_class_value: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-  out_class_value: [122, 122, 122, 122, 122, 255, 255, 255, 255, 255, 255, 120, 120],
-  efg_name: ['Photic coral reefs', 'Photic coral reefs', 'Photic coral reefs', 'Photic coral reefs', 'Photic coral reefs', 'No Data', 'No Data', 'No Data', 'No Data', 'No Data', 'No Data', 'Seagrass meadows', 'Seagrass meadows'],
-  efg_code: ['M1.3', 'M1.3', 'M1.3', 'M1.3', 'M1.3', 'NA', 'NA', 'NA', 'NA', 'NA', 'NA', 'M1.1', 'M1.1']
-};
-
-
-//tnc_carib_mangrove_2013
-var tnc_carib_mangrove_2013 = {
-  data_id_code: 'tnc_carib_mangrove_2013',
-  ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/tnc_carib_mangrove_2013',
-  in_class_field_name: ['Hab_Desc', 'Hab_Desc'],
-  in_class_value: ['Mangrove', 'NULL'],
-  out_class_value: [169, 0],
-  efg_name: ['Intertidal forests and shrublands', 'No Data'],
-  efg_code: ['MFT1.2', '0']
+  in_class_field_name: ['LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUtyyppi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi', 'LuTUkoodi'],
+  in_class_value: ['LuTU-tyyppi ei tiedossa', 'LuTU-tyypittelyssä kuuluu lampiin, alle 10 ha', 'Pienet ja keskikokoiset vähähumuksiset c', 'Suuret vähähumuksiset järvet', 'Matalat vähähumuksiset järvet', 'Pienet humusjärvet', 'Keskikokoiset humusjärvet', 'Suuret humusjärvet', 'Matalat humusjärvet', 'Runsashumuksiset järvet', 'Matalat runsashumuksiset järvet', 'Pohjois-Lapin järvet', 'Runsasravinteiset järvet', 'Runsaskalkkiset järvet', 'Voimakkaasti pohjavesivaikutteiset järvet', 'T01.01.01', 'T01.01.02', 'T01.01.03', 'T01.02.02', 'T01.02.03', 'T01.03.01', 'T01.03.02', 'T01.03.03'],
+  out_class_value: [255, 255, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 95, 7, 7, 7, 7, 7, 7, 7, 7],
+  efg_name: ['No Data', 'No Data', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Freeze-thaw freshwater lakes', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands', 'Boreal and temperate high montane forests and woodlands'],
+  efg_code: ['NA', 'NA', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'F2.4', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1', 'T2.1']
 };
 
 
 //ubonn_chile_veg_2022
 var ubonn_chile_veg_2022 = {
   data_id_code: 'ubonn_chile_veg_2022',
+  source_id: [22],
+  year_end: [2022],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/ubonn_chile_veg_2022',
   in_class_field_name: ['CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE', 'CODE'],
   in_class_value: ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16', 'P17', 'P18', 'P19', 'P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33', 'P34', 'P35', 'P36', 'P37', 'P38', 'P39', 'P40', 'P41', 'P42', 'P43', 'P44', 'P45', 'P46', 'P47', 'P48', 'P49', 'P50', 'P51', 'P52', 'P53', 'P54', 'P55', 'P56', 'P57', 'P58', 'P59', 'P60', 'P61', 'P62', 'P63', 'P64', 'P65', 'P66', 'P67', 'P68', 'P69', 'P70', 'P71', 'P72', 'P73', 'P74', 'P75', 'P76', 'P77', 'P78', 'P79', 'P80', 'P81', 'P82', 'P83', 'P84', 'P85', 'P86', 'P87', 'P88', 'P89', 'P90', 'P91', 'P92', 'P93', 'P94', 'P95', 'P96', 'P97', 'P98', 'P99', 'P100', 'P101', 'P102', 'P103', 'P104', 'P105', 'P106', 'P107', 'P108', 'P109', 'P110', 'P111', 'P112', 'P113', 'P114', 'P115', 'P116', 'P117', 'P118', 'P119', 'P120', 'P121', 'P122', 'P123', 'P124', 'P125'],
@@ -433,6 +477,8 @@ var ubonn_chile_veg_2022 = {
 //unsw_antarc_eco_2024
 var unsw_antarc_eco_2024 = {
   data_id_code: 'unsw_antarc_eco_2024',
+  source_id: [165],
+  year_end: [2021],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/unsw_antarc_eco_2024',
   in_class_field_name: ['raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code'],
   in_class_value: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270],
@@ -445,6 +491,8 @@ var unsw_antarc_eco_2024 = {
 //unsw_myan_eco_2020
 var unsw_myan_eco_2020 = {
   data_id_code: 'unsw_myan_eco_2020',
+  source_id: [5],
+  year_end: [2018],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/unsw_myan_eco_2020',
   in_class_field_name: ['Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code', 'Raster code'],
   in_class_value: [52, 54, 53, 55, 49, 51, 50, 66, 48, 57, 38, 58, 56, 37, 45, 44, 39, 40, 41, 36, 47, 43, 42, 65, 61, 2, 33, 64, 62, 59, 63, 7, 35, 17, 20, 19, 18, 25, 16, 24, 21, 23, 22, 3, 15, 14, 32, 31, 1, 34, 30, 29, 28, 27, 6, 13, 26, 4, 5, 11, 8, 9, 10, 12, 98],
@@ -457,6 +505,8 @@ var unsw_myan_eco_2020 = {
 //uq_global_mudflats_2022
 var uq_global_mudflats_2022 = {
   data_id_code: 'uq_global_mudflats_2022',
+  source_id: [12],
+  year_end: [2019],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/uq_global_mudflats_2022',
   in_class_field_name: ['classification'],
   in_class_value: [1],
@@ -469,6 +519,8 @@ var uq_global_mudflats_2022 = {
 //usda_prico_lcov_2023
 var usda_prico_lcov_2023 = {
   data_id_code: 'usda_prico_lcov_2023',
+  source_id: [61],
+  year_end: [2003],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/usda_prico_lcov_2023',
   in_class_field_name: ['raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code', 'raster code'],
   in_class_value: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255],
@@ -481,6 +533,8 @@ var usda_prico_lcov_2023 = {
 //wcs_mozam_eco_2021
 var wcs_mozam_eco_2021 = {
   data_id_code: 'wcs_mozam_eco_2021',
+  source_id: [33],
+  year_end: [2020],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/wcs_mozam_eco_2021',
   in_class_field_name: ['eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class', 'eco_class'],
   in_class_value: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161],
@@ -493,6 +547,8 @@ var wcs_mozam_eco_2021 = {
 //wcs_mozam_marine_2022
 var wcs_mozam_marine_2022 = {
   data_id_code: 'wcs_mozam_marine_2022',
+  source_id: [183],
+  year_end: [NA],
   ee_asset_id: 'projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/wcs_mozam_marine_2022',
   in_class_field_name: ['Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN', 'Ecosys_EN'],
   in_class_value: ['Delagoa Canyon', 'Delagoa Coral Reefs', 'Delagoa Estuary', 'Delagoa Microalgal Mats', 'Delagoa Rock', 'Delagoa Rubble', 'Delagoa Seagrass', 'Delagoa Lower Shelf', 'Delagoa Mid Shelf', 'Delagoa Shelf Edge', 'Delagoa Shore (300m buffer)', 'Delagoa Upper Shelf', 'East Africa Canyon', 'East Africa Coral Reefs', 'East Africa Estuary', 'East Africa Microalgal Mats', 'East Africa Rock', 'East Africa Rubble', 'East Africa Seagrass', 'East Africa Lower Shelf', 'East Africa Mid Shelf', 'East Africa Shelf Edge', 'East Africa Shore (300m buffer)', 'East Africa Upper Shelf', 'Mozambique Channel Canyon', 'Mozambique Channel Coral Reefs', 'Mozambique Channel Seamount', 'Mozambique Channel Abyss', 'Mozambique Channel Lower Shelf', 'Mozambique Channel Lower Slope', 'Mozambique Channel Mid Shelf', 'Mozambique Channel Mid Slope', 'Mozambique Channel Shelf Edge', 'Mozambique Channel Upper Shelf', 'Mozambique Channel Upper Slope', 'Sofala Bight Canyon', 'Sofala Bight Coral Reefs', 'Sofala Bight Estuary', 'Sofala Bight Microalgal Mats', 'Sofala Bight Rock', 'Sofala Bight Rubble', 'Sofala Bight Seagrass', 'Sofala Bight Lower Shelf', 'Sofala Bight Mid Shelf', 'Sofala Bight Shelf Edge', 'Sofala Bight Shore (300m buffer)', 'Sofala Bight Upper Shelf'],
