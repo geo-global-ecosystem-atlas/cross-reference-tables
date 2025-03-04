@@ -2,7 +2,7 @@
 
 ### ReadMe
 
-Repo to house crosswalk tables for GEO Atlas
+This repository houses all crosswalk tables and associated extraction code for datasets incorporated into the Global Ecosystems Atlas.
 
 ### Further information:
 For any further information about this repository please contact [Nick Murray](nicholas.murray@jcu.edu.au) or [Ben Cresswell](benjamin.cresswell@jcu.edu.au).
