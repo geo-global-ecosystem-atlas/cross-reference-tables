@@ -160,7 +160,7 @@ rm(stage_1, stage_2, stage_3)
 # Split
 ```{r}
 crosswalk  |>  
-  split(crosswalk$dat)  |> 
+  split(crosswalk$data_id_code)  |> 
   list2env(envir = globalenv())
 ```
 
@@ -175,68 +175,3 @@ for (i in dfs){
 }
 ```
 
-
-# Draft GEE work
-```{r}
-# Load the necessary libraries
-library(tidyverse)
-library(purrr)
-getwd()
-# Define the folder where the CSV files are located
-cw_folder <- "crosswalk_tables"
-
-# Get a list of all CSV files in the folder
-cw_files <- list.files(cw_folder, pattern = "*.csv", full.names = TRUE)
-
-
-
-# Function to process each CSV file and generate the JavaScript dictionary
-process_csv_file <- function(file_path) {
-  # Read the CSV file
-  df <- read_csv(file_path)
-  
-  # Extract the base filename (e.g., "0010002" without extension)
-  #file_name <- tools::file_path_sans_ext(basename(file_path))
-  file_name <- df$data_id_code[1]
-  
-  # Generate the relevant fields
-  data_id_code <- file_name
-  ee_asset_id <- paste0("projects/UQ_intertidal/gee-geo-atlas/open-datasets/jcu/", df$band_layer_name[1])
-  
-  # Extract the fields row-wise, keeping NA and repeated values
-  in_class_field_name <- df$in_class_field_name
-  in_value <- df$in_class_value
-  out_value <- df$out_class_value
-  efg_names <- df$efg_name
-  efg_codes <- df$efg_code
-  
-  # Generate the JavaScript dictionary content with aligned values row by row
-  js_content <- paste0(
-    "//", data_id_code, "\n",
-    "var ", data_id_code, " = {\n",
-    "  data_id_code: '", data_id_code, "',\n",
-    "  ee_asset_id: '", ee_asset_id, "',\n",
-    "  in_class_field_name: [", paste0("'", in_class_field_name, "'", collapse = ", "), "],\n",
-    "  in_value: [", paste0(in_value, collapse = ", "), "],\n",
-    "  out_value: [", paste0(out_value, collapse = ", "), "],\n",
-    "  efg_names: [", paste0("'", efg_names, "'", collapse = ", "), "],\n",
-    "  efg_codes: [", paste0("'", efg_codes, "'", collapse = ", "), "]\n",
-    "};\n"
-  )
-  
-  return(js_content)
-}
-
-# Process all CSV files and combine the JavaScript content
-combined_js_content <- cw_files %>%
-  map_chr(process_csv_file) %>%
-  paste(collapse = "\n\n")
-
-# Write the combined result to a markdown (.md) file
-write(combined_js_content, file = "combined_output.md")
-
-# View the combined JavaScript content (optional)
-cat(combined_js_content)
-
-
-```
