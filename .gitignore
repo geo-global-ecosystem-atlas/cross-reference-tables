@@ -15,6 +15,7 @@
 archive/
 scratch/
 test/
+gsheet_cw
 
 *cache
 *archive
