@@ -4,13 +4,13 @@
 This repository houses all cross-reference tables and associated extraction code for datasets incorporated into the [Global Ecosystems Atlas](https://globalecosystemsatlas.org/atlas) Proof of Concept (PoC) v0.0.8. For a full list of datasets used in the PoC please see the sources catalogue available [here](https://globalecosystemsatlas.org/data/sources-catalogue#tabs).
 
 ### Guide
-Cross-reference tables are stored in the [cross-reference-tables](https://github.com/geo-global-ecosystem-atlas/cross-reference-tables/tree/main/cross-reference_tables) folder. The general format is as follows
+Cross-reference tables are stored in the [cross-reference-tables](https://github.com/geo-global-ecosystem-atlas/cross-reference-tables/tree/main/cross-reference_tables) folder. The general format is as follows:
  
 Filename is the Atlas dataset ID code (data_ID_code) in the [sources table](https://github.com/geo-global-ecosystem-atlas/cross-reference-tables/blob/main/metadata/GEA_Sources_Table_v0.0.8.csv)
-There is one table per dataset (.csv format)
-Each table has one row per input map class (in_class_value)
+There is one table per dataset (.csv format).
+Each table has one row per input map class (in_class_value).
 We use the [Atlas numeral system](https://github.com/geo-global-ecosystem-atlas/cross-reference-tables/tree/main/metadata/numeral-system) for representing 110 ecosystem functional groups in an 8-bit raster (out_class_value). This numeral system allows for some growth and change to the GET.
-The cross-referencing system operates for both raster and vector data
+The cross-referencing system operates for both raster and vector data.
 
 ### License
 This work is licensed under a
